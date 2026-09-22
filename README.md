@@ -1,18 +1,3 @@
-# SPECTRA
-
-SPECTRA is a research-grade visual data encoding architecture designed as an alternative approach to conventional 2D barcodes. Instead of treating a symbol as a monolithic matrix, SPECTRA distributes encoded payload information across independently validated spatial packet regions.
-
-Core Architecture
-🌈 16-color visual alphabet — each module represents 4 bits.
-📦 Spatial packetization — payloads are distributed across independent visual regions.
-🔄 Fountain/FEC coding — redundant encoding packets enable recovery after packet loss.
-🧩 Progressive payload layers — L0, L1 and L2 allow staged information recovery.
-🔐 CRC-32 validation — corrupted packets can be rejected locally.
-🧾 SHA-256 integrity verification — the reconstructed payload is cryptographically verified.
-🎯 Four anchor structures — provide a deterministic symbol geometry for future camera-based decoding.
-🚫 Collision-free rendering — visual modules remain inside their assigned regions and do not overlap.
-🖼️ 720×720 reference profile — optimized for the current image-based research implementation.
-
 # SPECTRA - reference codec
 
 **Sp**atially **P**artitioned **E**rror-**C**orrecting **T**opological **R**edundant **A**rray
