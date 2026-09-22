@@ -1,0 +1,11 @@
+{
+  "version": 7,
+  "canvas": [
+    720,
+    720
+  ],
+  "packet_count": 252,
+  "payload_bytes": 68,
+  "sha256": "76405f8fbe097ee525fe5f4ede64c2e6d36b3e200e47ee257cc503fc98559e28",
+  "encoding": "UTF-8"
+}
